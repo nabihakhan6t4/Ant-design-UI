@@ -1,0 +1,120 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap");
+
+/* General Button Styling */
+.signup-btn {
+  border: 1px solid #212832;
+  background-color: transparent;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #212832;
+  color: #fff;
+}
+
+/* Remove the border from the dropdown */
+.no-border {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+/* Spacing Between Login, Signup, and Dropdown */
+.navbar .form-inline .gap-3 {
+  gap: 20px;
+}
+
+/* Title Styling */
+.title {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Container and Text Styling */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.category-description {
+  color: #5e6282; /* Light blue for category */
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  color: #14183e; /* Dark blue for title */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Custom Card Styling */
+.custom-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-title {
+  color: #1e1d4c; /* Dark blue title */
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-description {
+  color: #5e6282; /* Light blue description */
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+
+/* Poppins Font Styling */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins2 {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -6,7 +6,7 @@ import telescopeImage from "../images/Group@2x.png";
 import plane from "../images/plane.png";
 import mice from "../images/image 25.png";
 import settings from "../images/power-supply 1.png";
-import './Cards.css';
+import './App.css';
 
 const BasicExample = () => {
   return (

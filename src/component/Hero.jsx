@@ -1,65 +1,83 @@
-import React from 'react';
-import { Button, Col, Row, Typography } from 'antd';
-import { DownOutlined, PlayCircleOutlined } from '@ant-design/icons';
-import { Container } from 'react-bootstrap';
-import 'antd/dist/reset.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import traveller from '../images/Traveller 1.png';
+import React from "react";
+import { Button, Col, Row, Typography } from "antd";
+import { Container } from "react-bootstrap";
+import "antd/dist/reset.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import traveller from "../images/Traveller 1.png";
 
 const { Title, Paragraph } = Typography;
 
 const HeroSection = () => {
   return (
-    <div style={{ background: '#001529', color: 'white', padding: '100px 0' }}>
+    <div>
       <Container>
         <Row gutter={[16, 16]} align="middle" justify="center">
           <Col xs={24} md={12}>
-            <div style={{ textAlign: 'left' }}>
-              <Title style={{ color: 'white', fontSize: '48px' }}>
+            <div style={{ textAlign: "left" }}>
+              <p
+                className="poppins"
+                style={{
+                  color: " #DF6951",
+                  fontSize: "20px",
+                  fontWeight: "700",
+                }}
+              >
                 BEST DESTINATIONS AROUND THE WORLD
+              </p>
+              <Title
+                className="title"
+                style={{
+                  color: "#181E4B",
+                  fontSize: "84px",
+                  fontWeight: "700",
+                }}
+              >
+                <span>Travel, enjoy</span>
+                <br />
+                <span>and live a new</span>
+                <br />
+                <span>and full life</span>
               </Title>
-              <h1>Travel, enjoy, and live a fulfilling life</h1>
-              <Paragraph style={{ color: 'white', fontSize: '18px' }}>
-                Explore the world's most beautiful destinations, experience new cultures, and make unforgettable memories. Whether you’re an adventure seeker, a nature lover, or a history enthusiast, there’s something for everyone.
+              <Paragraph
+                className="poppins2"
+                style={{
+                  color: " #5E6282",
+                  fontSize: "16px",
+                  fontWeight: "400",
+                }}
+              >
+                Explore the world's most beautiful destinations, experience new
+                cultures, and make unforgettable memories. Whether you’re an
+                adventure seeker, a nature lover, or a history enthusiast,
+                there’s something for everyone.
               </Paragraph>
-              <Button
-                type="primary"
-                size="large"
-                style={{
-                  backgroundColor: '#f1a501',
-                  borderColor: '#f1a501',
-                  fontSize: '16px',
-                  padding: '10px 20px',
-                  marginRight: '10px',
-                }}
-              >
-                Find out more
-                <DownOutlined style={{ marginLeft: '8px' }} />
-              </Button>
-              <Button
-                type="primary"
-                size="large"
-                style={{
-                  backgroundColor: '#df6951',
-                  borderColor: '#df6951',
-                  fontSize: '16px',
-                  padding: '10px 20px',
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <PlayCircleOutlined style={{ fontSize: '24px', color: 'white' }} />
-                <span style={{ marginLeft: '8px', color: 'white' }}>Play Demo</span>
-              </Button>
+              <div className="d-flex align-items-center gap-3">
+                <Button
+                  type="primary"
+                  size="large"
+                  style={{
+                    backgroundColor: "#f1a501",
+                    borderColor: "#f1a501",
+                    fontSize: "18px",
+                    fontWeight: "500",
+                    textAlign: "center",
+                    padding: "26px 30px",
+                    boxShadow: "0px 20px 35px 0px #F1A50126",
+                    marginRight: "10px",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Find out more
+                </Button>
+                <Button></Button>
+              </div>
             </div>
           </Col>
           <Col xs={24} md={12}>
             <img
               src={traveller}
               alt="Hero"
-              style={{ width: '100%', borderRadius: '8px' }}
+              style={{ width: "100%", borderRadius: "8px" }}
             />
           </Col>
         </Row>
