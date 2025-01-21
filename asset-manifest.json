@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ant-design-UI/static/css/main.aa30bef1.css",
-    "main.js": "/Ant-design-UI/static/js/main.94eced58.js",
+    "main.css": "/Ant-design-UI/static/css/main.e8cbe9ad.css",
+    "main.js": "/Ant-design-UI/static/js/main.4fe0795e.js",
     "static/js/373.7c37a588.chunk.js": "/Ant-design-UI/static/js/373.7c37a588.chunk.js",
     "static/media/Traveller 1.png": "/Ant-design-UI/static/media/Traveller 1.20f27ec639dd3520e3ac.png",
     "index.html": "/Ant-design-UI/index.html",
-    "main.aa30bef1.css.map": "/Ant-design-UI/static/css/main.aa30bef1.css.map",
-    "main.94eced58.js.map": "/Ant-design-UI/static/js/main.94eced58.js.map",
+    "main.e8cbe9ad.css.map": "/Ant-design-UI/static/css/main.e8cbe9ad.css.map",
+    "main.4fe0795e.js.map": "/Ant-design-UI/static/js/main.4fe0795e.js.map",
     "373.7c37a588.chunk.js.map": "/Ant-design-UI/static/js/373.7c37a588.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa30bef1.css",
-    "static/js/main.94eced58.js"
+    "static/css/main.e8cbe9ad.css",
+    "static/js/main.4fe0795e.js"
   ]
 }
