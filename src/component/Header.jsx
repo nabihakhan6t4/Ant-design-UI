@@ -35,6 +35,7 @@ const NavScrollExample = () => {
               </Nav.Link>
               <button className="signup-btn">Signup</button>
               <DropdownButton
+              
                 id="dropdown-language"
                 title={selectedLanguage}
                 onSelect={handleLanguageChange}
