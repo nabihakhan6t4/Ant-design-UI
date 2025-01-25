@@ -1,10 +1,10 @@
 /* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-body,
-html {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body, html {
   overflow-x: hidden;
 }
+
 @media (max-width: 576px) {
   .signup-btn {
     width: 100%; /* Or adjust to fit */
@@ -13,11 +13,13 @@ html {
     width: 100%; /* Make sure dropdown fits on smaller screens */
   }
 }
+
 @media (max-width: 991px) {
   .navbar-nav {
     flex-wrap: wrap; /* Allow items to wrap on small screens */
   }
 }
+
 @media (max-width: 991px) {
   .navbar-nav {
     overflow-x: auto; /* Allow horizontal scrolling for medium screens */
@@ -31,11 +33,13 @@ html {
     padding: 8px 10px; /* Adjust toggle button size */
   }
 }
+
 @media (max-width: 991px) {
   .navbar-collapse {
     overflow-x: hidden; /* Prevent horizontal overflow on medium screens */
   }
 }
+
 /* General Button Styling */
 .signup-btn {
   border: 1px solid #212832;
@@ -133,6 +137,7 @@ html {
   width: 67px;
   height: 75px;
 }
+
 #settings-img {
   width: 77px;
   height: 66px;
@@ -197,6 +202,16 @@ html {
   color: #5e6282;
 }
 
+
+.custom-placeholder::placeholder {
+  font-family: "Montserrat", serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #39425D;
+
+}
+
 .main-title {
   font-family: "Volkhov", serif;
   font-weight: 700;
@@ -205,34 +220,15 @@ html {
   color: #14183e;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #italy-image {
   width: 314px;
   height: 457px;
   border-radius: 24px;
   box-shadow: 0px 1.85px 3.15px 0px #00000001;
-
   box-shadow: 0px 8.15px 6.52px 0px #00000002;
-
   box-shadow: 0px 20px 13px 0px #00000003;
-
   box-shadow: 0px 38.52px 25.48px 0px #00000003;
-
   box-shadow: 0px 64.81px 46.85px 0px #00000004;
-
   box-shadow: 0px 100px 80px 0px #00000005;
 }
 
@@ -242,12 +238,14 @@ html {
   color: #5e6282;
   font-size: 18px;
 }
+
 .price {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-size: 18px;
   color: #5e6282;
 }
+
 .duration {
   font-family: "Poppins", serif;
   font-weight: 400;
@@ -260,30 +258,23 @@ html {
   height: 457px;
   border-radius: 24px;
   box-shadow: 0px 1.85px 3.15px 0px #00000001;
-
   box-shadow: 0px 8.15px 6.52px 0px #00000002;
-
   box-shadow: 0px 20px 13px 0px #00000003;
-
   box-shadow: 0px 38.52px 25.48px 0px #00000003;
-
   box-shadow: 0px 64.81px 46.85px 0px #00000004;
-
   box-shadow: 0px 100px 80px 0px #00000005;
 }
+
 #Europe-image {
   width: 314px;
   height: 457px;
   border-radius: 24px;
   box-shadow: 0px 1.85px 3.15px 0px #00000001;
-
+  display: flex;
+  justify-content: center;
   box-shadow: 0px 8.15px 6.52px 0px #00000002;
-
   box-shadow: 0px 20px 13px 0px #00000003;
-
   box-shadow: 0px 38.52px 25.48px 0px #00000003;
-
   box-shadow: 0px 64.81px 46.85px 0px #00000004;
-
   box-shadow: 0px 100px 80px 0px #00000005;
 }

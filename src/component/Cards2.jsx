@@ -76,9 +76,12 @@ const BasicExample2 = () => {
             />
           </Col>
         </Row>
+
+       
       </div>
     </div>
   );
 };
 
 export default BasicExample2;
+
