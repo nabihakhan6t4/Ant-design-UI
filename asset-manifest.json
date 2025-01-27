@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ant-design-UI/static/css/main.51588494.css",
-    "main.js": "/Ant-design-UI/static/js/main.db298f1f.js",
+    "main.js": "/Ant-design-UI/static/js/main.ae32343a.js",
     "static/js/373.7c37a588.chunk.js": "/Ant-design-UI/static/js/373.7c37a588.chunk.js",
     "static/media/image.png": "/Ant-design-UI/static/media/image.1a3fc4bdef6234bb6da5.png",
     "static/media/Traveller 1.png": "/Ant-design-UI/static/media/Traveller 1.20f27ec639dd3520e3ac.png",
@@ -9,11 +9,11 @@
     "static/media/destination.jpeg": "/Ant-design-UI/static/media/destination.3afa0749bc834a4cd232.jpeg",
     "index.html": "/Ant-design-UI/index.html",
     "main.51588494.css.map": "/Ant-design-UI/static/css/main.51588494.css.map",
-    "main.db298f1f.js.map": "/Ant-design-UI/static/js/main.db298f1f.js.map",
+    "main.ae32343a.js.map": "/Ant-design-UI/static/js/main.ae32343a.js.map",
     "373.7c37a588.chunk.js.map": "/Ant-design-UI/static/js/373.7c37a588.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51588494.css",
-    "static/js/main.db298f1f.js"
+    "static/js/main.ae32343a.js"
   ]
 }
